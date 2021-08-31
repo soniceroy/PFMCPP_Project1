@@ -52,84 +52,92 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       dog
+//  action 1:   the dog barks
+dog.bark();
+//  action 2:   the dog jumps
+dog.jump();
+//  action 3:   the dog wags it's tail
+dog.wagTail();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       drawbridge
+//  action 1:   the drawbridge raises
+drawBridge.raise();
+//  action 2:   the drawbridge lowers
+drawBridge.lower();
+//  action 3:   the drawbridge clicks for int seconds like this sound: https://www.youtube.com/watch?v=nSAG6F4oHG8
+drawBridge.click(100);
  
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       clock
+//  action 1:   the clock makes a tick sound
+clock.tick();
+//  action 2:   the clock makes a tock sound
+clock.tock();
+//  action 3:   the clock moves its arms one rotation
+clock.moveArms();
  
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       plane
+//  action 1:   the plane increases thrust
+plane.increaseThrust();
+//  action 2:   the plane opens its passenger door
+plane.openPassengerDoor();
+//  action 3:   the plane raises or lowers its landing gears (down if up, up if down)
+plane.toggleLandingGears(); 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       pencil
+//  action 1:   the pencil emits pencil lead particles for writing
+pencil.emitLead();
+//  action 2:   the pencil emits eraser rubber for erasing
+pencil.emitEraser();  
 
-//  action 2:
-
-//  action 3:
+//  action 3:   the pencil lead breaks
+pencil.leadBreak();
  
 //  6)
-//  Noun:
-//  action 1:
+//  Noun:       apple
+//  action 1:   the apple reflects light
+apple.reflectLight();
+//  action 2:   the apple bounces back against the floor when dropped
+apple.bounce();
 
-//  action 2:
-
-//  action 3:
+//  action 3:   the apple deteriorates, giving off a putrid aroma
+apple.rot();
  
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       bird
+//  action 1:   the bird flaps its wings
+bird.flap();
+//  action 2:   the bird pecks
+bird.peck();
+//  action 3:   the bird makes a cooing sound
+bird.coo();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       flower
+//  action 1:   the flower opens its petals
+flower.open();
+//  action 2:   the flower wilts
+flower.wilt();
+//  action 3:   the flower drops a petal
+flower.dropPetal();
  
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
-//  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       tv
+//  action 1:   the tv turns on
+tv.turnOn();
+//  action 2:   the tv turns off
+tv.turnOff();
+//  action 3:   the tv changes channel
+tv.changeChannel();
+//  10)     
+//  Noun:      toaster
+//  action 1:  the toaster carriage closes to hold the bread
+toaster.closeCarriage();
+//  action 2:  the toaster heats the coils
+toaster.heatCoils();
+//  action 3:  the toaster releases the carriage to allow the spring to pop up the toast
+toaster.releaseCarriage();
  
 
 
