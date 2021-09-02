@@ -83,7 +83,7 @@ clock.moveArms();
 plane.increaseThrust();
 //  action 2:   the plane opens its passenger door
 plane.openPassengerDoor();
-//  action 3:   the plane raises or lowers its landing gears (down if up, up if down)
+//  action 3:   the plane raises or lowers its landing gears (down if up, and vice versa)
 plane.toggleLandingGears(); 
 //  5)
 //  Noun:       pencil
