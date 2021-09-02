@@ -123,13 +123,13 @@ flower.wilt();
 flower.dropPetal();
  
 //  9)
-//  Noun:       tv
-//  action 1:   the tv turns on
-tv.turnOn();
-//  action 2:   the tv turns off
-tv.turnOff();
-//  action 3:   the tv changes channel
-tv.changeChannel();
+//  Noun:       cassette player
+//  action 1:   the cassette player ejects the cassette
+cassettePlayer.ejectCassette();
+//  action 2:   the cassette player plays the cassette
+cassettePlayer.playCassette();
+//  action 3:   the cassette player stops playing the cassette
+cassettePlayer.stopPlaying();
 //  10)     
 //  Noun:      toaster
 //  action 1:  the toaster carriage closes to hold the bread
